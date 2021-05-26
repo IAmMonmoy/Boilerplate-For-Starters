@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookDeatilPage/> should match the snapshot 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Memo(Connect(BookPage))
+    books={
+      Array [
+        Object {
+          "bookId": "32e959aa-bb2d-11eb-8529-0242ac130003",
+          "title": "The Door in the Wall",
+          "year": 1989,
+        },
+        Object {
+          "bookId": "378bd73a-bb2d-11eb-8529-0242ac130003",
+          "title": "Amos Fortune, Free Man",
+          "year": 1950,
+        },
+        Object {
+          "bookId": "3d634b02-bb2d-11eb-8529-0242ac130003",
+          "title": "The Hobbit, Or, There and Back Again",
+          "year": 2012,
+        },
+        Object {
+          "bookId": "4d634b02-bb2d-11eb-8529-0242ac130003",
+          "title": "The Hobbit, Or, There and Back Again",
+          "year": 1989,
+        },
+        Object {
+          "bookId": "5d634b02-bb2d-11eb-8529-0242ac130003",
+          "title": "The Hobbit, Or, There and Back Again",
+          "year": 1989,
+        },
+      ]
+    }
+    done={false}
+    getBooks={[MockFunction]}
+    history={Object {}}
+    loading={false}
+    location={Object {}}
+    match={Object {}}
+  />
+</Context.Provider>
+`;

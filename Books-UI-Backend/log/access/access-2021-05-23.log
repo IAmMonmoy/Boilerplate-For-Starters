@@ -1,0 +1,49 @@
+{"message":"::1 - - [22/May/2021:20:58:28 +0000] \"POST /books HTTP/1.1\" 404 17 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:00:26 +0000] \"POST /books HTTP/1.1\" 404 17 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:02:17 +0000] \"POST /api/v1/books HTTP/1.1\" 404 17 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:02:26 +0000] \"POST /api/v1/books HTTP/1.1\" 404 17 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:02:38 +0000] \"GET /api/v1/books HTTP/1.1\" 500 - \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:06:22 +0000] \"GET /api/v1/books HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:06:46 +0000] \"GET /api/v1/books HTTP/1.1\" 200 298 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:26:55 +0000] \"GET /api/v1/books HTTP/1.1\" 200 298 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:59:39 +0000] \"GET /api/v1/books/12 HTTP/1.1\" 404 17 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:21:59:49 +0000] \"GET /api/v1/book/12 HTTP/1.1\" 500 376 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:02:38 +0000] \"GET /api/v1/book/12 HTTP/1.1\" 500 376 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:12:53 +0000] \"GET /api/v1/book/12 HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:22:39 +0000] \"GET /api/v1/book/12 HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:25:32 +0000] \"GET /api/v1/book/12 HTTP/1.1\" 400 105 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:25:36 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:33:59 +0000] \"GET //api-docs HTTP/1.1\" 404 148 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:34:13 +0000] \"GET /api/v1/api/v1/books HTTP/1.1\" 404 158 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:35:39 +0000] \"GET /api/v1books HTTP/1.1\" 404 150 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:36:03 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:43:22 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:45:19 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:45:19 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 150 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:46:10 +0000] \"GET /api/v1/book/:id?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:47:20 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:47:20 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 150 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:48:04 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:48:37 +0000] \"GET /api/v1/books/378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 188 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:48:46 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:50:33 +0000] \"GET /api/v1/book/%7Bid%7D?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 159 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:51:00 +0000] \"GET /api/v1/book/%7Bid%7D?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 159 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:51:10 +0000] \"GET /api/v1/book/%7Bid%7D?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 159 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:52:22 +0000] \"GET /api/v1/book/:id?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 404 154 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:52:41 +0000] \"GET /api/v1/book/?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:52:57 +0000] \"GET /api/v1/book/?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:53:07 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:55:56 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:56:04 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac13000 HTTP/1.1\" 400 105 \"http://localhost:3000/api-docs/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:56:19 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:56:26 +0000] \"GET /api/v1/book HTTP/1.1\" 400 97 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:57:37 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:57:37 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:58:12 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:58:12 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:58:12 +0000] \"GET /api/v1/book?id=778bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:58:31 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:58:31 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [22/May/2021:22:58:31 +0000] \"GET /api/v1/book?id=778bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:59:14 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}
+{"message":"::1 - - [22/May/2021:22:59:18 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}

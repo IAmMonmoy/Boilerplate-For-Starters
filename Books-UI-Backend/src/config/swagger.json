@@ -1,0 +1,104 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0"
+  },
+  "host": "localhost:9999",
+  "basePath": "/api/v1",
+  "schemes": ["http"],
+  "produces": ["application/json"],
+  "paths": {
+    "/books": {
+      "get": {
+        "tags": ["get all books"],
+        "summary": "",
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/Response"
+            },
+            "description": ""
+          },
+          "400": {
+            "schema": {
+              "$ref": "#/definitions/Response"
+            },
+            "description": ""
+          }
+        },
+        "content": {
+          "application/json": {}
+        }
+      }
+    },
+    "/book": {
+      "get": {
+        "tags": ["get all books"],
+        "summary": "",
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/Response"
+            },
+            "description": ""
+          },
+          "400": {
+            "schema": {
+              "$ref": "#/definitions/Response"
+            },
+            "description": ""
+          }
+        },
+        "content": {
+          "application/json": {}
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "bookid",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "errorObject": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["UserError", "GenericError"]
+        },
+        "message": {
+          "type": "string",
+          "description": "Error Description"
+        }
+      }
+    },
+    "Response": {
+      "properties": {
+        "responseType": {
+          "type": "string",
+          "description": "Value will be either 'success' or 'error'"
+        },
+        "result": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "example": [],
+          "description": "API Response Result(If Any)"
+        },
+        "error": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/errorObject"
+          }
+        }
+      }
+    }
+  }
+}

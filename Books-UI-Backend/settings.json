@@ -1,0 +1,23 @@
+{
+    "editor.fontSize": 18,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "Consolas,Menlo, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "debug.node.autoAttach": "off",
+    "breadcrumbs.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "tslint.autoFixOnSave": true
+}

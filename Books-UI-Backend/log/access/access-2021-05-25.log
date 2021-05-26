@@ -1,0 +1,13 @@
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:05:40 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:05:40 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:05:40 +0000] \"GET /api/v1/book?id=778bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:05:47 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:05:47 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:05:47 +0000] \"GET /api/v1/book?id=778bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:06:06 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:06:06 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:06:06 +0000] \"GET /api/v1/book?id=778bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:06:07 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:06:07 +0000] \"GET /api/v1/book?id=378bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 200 361 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [25/May/2021:17:06:07 +0000] \"GET /api/v1/book?id=778bd73a-bb2d-11eb-8529-0242ac130003 HTTP/1.1\" 400 105 \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::1 - - [25/May/2021:17:06:21 +0000] \"GET /api/v1/books HTTP/1.1\" 200 345 \"-\" \"PostmanRuntime/7.26.8\"\n","level":"info"}

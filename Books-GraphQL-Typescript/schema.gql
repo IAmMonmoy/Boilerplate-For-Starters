@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type BookModel {
+  bookId: String!
+  title: String!
+  year: Float!
+  description: String!
+}
+
+type Query {
+  books: [BookModel!]!
+  book(id: String!): [BookModel!]!
+}

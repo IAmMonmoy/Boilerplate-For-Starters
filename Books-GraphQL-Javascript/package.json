@@ -1,0 +1,47 @@
+{
+  "name": "bkashedaapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "starts": "pm2 start app.js -i 6",
+    "start": "nodemon --exec babel-node index.js",
+    "test": "mocha --require @babel/register ./**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "apollo-server-express": "^2.4.8",
+    "async": "^2.6.2",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "body-parser-graphql": "^1.1.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
+    "merge-graphql-schemas": "^1.5.8",
+    "mocha": "^6.0.2",
+    "moment": "^2.24.0",
+    "oracledb": "^3.1.2",
+    "pm2": "^3.4.1",
+    "sequelize-oracle": "^3.3.2-0.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "nodemon": "^1.18.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
